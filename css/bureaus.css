@@ -1,3 +1,38 @@
-.investigate_logo {
+/*.investigate_logo, .patrol_logo, .detective_logo, .forces_logo  {
+    display: block;
     width: min-content;
+   }*/
+
+.bureau_item img {
+    display: block;
+    width: min-content;
+    /* width: 100%;
+    height: 100%;
+    object-fit: cover;*/
+    margin: auto;
+}
+
+.bureau_item {
+    border: 1px solid var(--text-color);
+    padding: 5px;
+}
+
+@media (min-width: 600px) {
+    .bureau_content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+}
+
+@media (min-width: 800px) {
+    .bureau_content {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 990px) {
+   .bureau_content {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
