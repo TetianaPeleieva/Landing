@@ -9,13 +9,14 @@
 :root {
     font-family: 'Montserrat', sans-serif;
     --text-color: #007db8;
+    --second-text-color: #fff;
     color: var(--text-color);
     --header-background-color: #d2c9ba;
     scroll-behavior: smooth;
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
 }
 
