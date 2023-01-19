@@ -8,7 +8,10 @@
     background-size: cover;
     background-position: 50% 50%;
     min-height: 400px;
+    background-position: center;
+    min-height: 100vh;
 }
+
 .bureaus_h2 {
     font-size: 30px;
     font-weight: bold;
@@ -28,6 +31,11 @@
 .bureau_item {
     border: 1px solid var(--text-color);
     padding: 5px;
+}
+
+.banner__button {
+    margin: auto;
+    margin-top: 20px;
 }
 
 @media (min-width: 600px) {

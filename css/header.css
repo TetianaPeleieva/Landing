@@ -52,5 +52,6 @@
     background-position: center;
     min-height: 500px;
     width: 100%;
-    background-position: 50% 2%;
+    background-position: 50% 5%;
+    min-height: 80vh;
 }
