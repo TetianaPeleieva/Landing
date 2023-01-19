@@ -1,6 +1,6 @@
 .header {
     background-color: var(--header-background-color);
-    }
+}
 
 .header-department {
     font-size: 30px;
@@ -53,8 +53,4 @@
     min-height: 500px;
     width: 100%;
     background-position: 50% 2%;
-    }
-
-    .header-banner_text {
-        
-    }
+}

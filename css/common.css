@@ -16,14 +16,9 @@
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
 }
-
-/*.main_content {
-    width: 80%;
-    align-content: center;
-}*/
 
 img {
     display: block;
